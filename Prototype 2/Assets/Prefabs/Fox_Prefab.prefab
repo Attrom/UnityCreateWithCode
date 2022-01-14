@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 5074158870363447165}
   - component: {fileID: 5074158870356082473}
   - component: {fileID: 3404345829081440774}
+  - component: {fileID: 5647816605840405772}
   m_Layer: 0
   m_Name: Fox_Prefab
   m_TagString: Untagged
@@ -159,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf01418a031931046a2f99e887bf44cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 13
+  speed: 8
 --- !u!114 &3404345829081440774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +175,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 40
   bottomBound: -10
+--- !u!64 &5647816605840405772
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074158870356118805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f000ecb3e2f790d45bb3459ad897cb3e, type: 3}
 --- !u!1 &5074158870356120181
 GameObject:
   m_ObjectHideFlags: 0
